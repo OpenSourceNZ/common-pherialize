@@ -10,6 +10,11 @@ import org.apache.commons.lang3.StringUtils
 class PhpSerializer {
 
     /**
+     * This class is not instantiable
+     */
+    private PhpSerializer() {}
+
+    /**
      * Serialize a given list to a string
      *
      * @param list given list to be serialized
@@ -26,12 +31,12 @@ class PhpSerializer {
      * @return a list
      */
     public static Collection unserialize(String value) {
-        if ( StringUtils.isBlank(value) ) {
+        if (StringUtils.isBlank(value)) {
             return []
         }
 
         MixedArray mixedArray = Pherialize.unserialize(value).toArray()
-        return mixedArray.collect {k, v ->
+        return mixedArray.collect { k, v ->
             return v
         }
     }
