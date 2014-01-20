@@ -10,7 +10,7 @@
     <groupId>nz.net.osnz.common</groupId>
     <artifactId>common-pherialize</artifactId>
     <packaging>jar</packaging>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.1</version>
 
     <name>Open Source New Zealand : common-pherialize</name>
     <description>Common Pherialize</description>
@@ -20,7 +20,7 @@
         <url>https://github.com/OpenSourceNZ/common-pherialize</url>
         <connection>scm:git:git@github.com:OpenSourceNZ/common-pherialize.git</connection>
         <developerConnection>scm:git:git@github.com:OpenSourceNZ/common-pherialize.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>common-pherialize-1.1</tag>
     </scm>
 
     <dependencies>
