@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: nz.net.osnz.common.pherialize.PhpSerializerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.257 sec - in nz.net.osnz.common.pherialize.PhpSerializerTest

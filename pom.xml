@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>nz.net.osnz.parent</groupId>
+        <artifactId>groovy-parent</artifactId>
+        <version>2.2</version>
+    </parent>
+
+    <groupId>nz.net.osnz.common</groupId>
+    <artifactId>common-pherialize</artifactId>
+    <packaging>jar</packaging>
+    <version>1.1-SNAPSHOT</version>
+
+    <name>Open Source New Zealand : common-pherialize</name>
+    <description>Common Pherialize</description>
+    <url>https://github.com/OpenSourceNZ/common-pherialize</url>
+
+    <scm>
+        <url>https://github.com/OpenSourceNZ/common-pherialize</url>
+        <connection>scm:git:git@github.com:OpenSourceNZ/common-pherialize.git</connection>
+        <developerConnection>scm:git:git@github.com:OpenSourceNZ/common-pherialize.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>de.ailis.pherialize</groupId>
+            <artifactId>pherialize</artifactId>
+            <version>1.2.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>nz.net.osnz.composite</groupId>
+            <artifactId>composite-groovy</artifactId>
+            <version>[3,)</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.1</version>
+        </dependency>
+
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>ailis-releases</id>
+            <name>Ailis Maven Releases</name>
+            <url>http://nexus.ailis.de/content/groups/public/</url>
+        </repository>
+    </repositories>
+
+
+</project>
